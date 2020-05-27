@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="myblogcss_new.css">
+<link rel="stylesheet" href="myblogcss.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  <!--background-image: url('co.jpg');-->
+  padding: 10px;
+  text-align:center;
+}
+
+.content1 {
+  background-color: grey;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><center><I>About me</I></center></h1>
+<hr>
+<h2><center><I><font color="red">Ankita Hegade</font></I></center></h2>
+<hr>
+<div class="content">
+  <img src="me.jpg" alt="my photo" style="width:50%" >
+  </div>
+  
+  
+  <div class="a-col 20 s12">
+  <!-- Blog entry -->
+  <div class="a-card-4 a-margin a-white">
+    <div class="a-container">
+      <h3>My name is Ankita</h3>
+  <p>I am student of Computer Science and Engineering.</p>
+  <p><b>RollNo</b> 2018BTECS00210</p>
+  <p><b>mobile no.</b> 9928909097</p>
+  <p><b>Career Objective:</b>
+
+To be involved in creative and constructive work that would not only satisfy my thirst for learning and serving organization but also boost my skills this can prove to be beneficial for the company and the society as a whole.              
+</p>
+<p><b>Languages Known :</b>  English,Marathi,Hindi.</p>
+
+<p><b>Hobbies  : </b>Exploring various tourist places, Singing, Dancing.</p>            
+
+<p><b>Personal Details:</b></p>
+
+<p><b>Name (In Full) :</b> Ankita Vijay Hegade.</p>
+<p><b>Date of Birth  :</b>  6rd April 2000</p>
+<p><b>Nationality    : </b> Indian</p>
+<p><b>Marital Status   : </b> Single</p>
+<p><b>Area of Interest  :</b> Internet Of Things.</p>
+    </div>
+
+    </div>
+  </div>
+   
+</div>
+
+
+
+ 
+  
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+<footer class="a-container a-dark-grey a-padding-32 a-margin-top">
+  
+  <button class="a-button a-black a-padding-large a-margin-bottom"><a href="myblog2.html" target="_self">Previous</a></button>
+  <button class="a-button a-black a-disabled a-padding-large a-margin-bottom">Next »</button>
+  <p>created by <a href="myblog1.html" target="_blank">Ankita Hegade</a></p>
+</footer>
+</body>
+</html>
